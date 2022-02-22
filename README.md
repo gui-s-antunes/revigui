@@ -1,6 +1,6 @@
 # Sobre
 
-Um programa que gerencia nossas revisão. É uma forma de usar ao invés de criar uma planilha manual.
+Um programa que gerencia sua revisão. É uma forma de usar ao invés de criar uma planilha manual.
 
 # Como usar
 
