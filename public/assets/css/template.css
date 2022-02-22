@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body{
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    background-color: rgba(40, 40, 143, 0.7);
+}
+
+/* header below */
+
+nav.header{
+    display: flex;
+    flex-flow: row;
+    align-items: center;
+    -webkit-box-shadow: 0px 2px 16px -1px rgba(0,0,0,0.87); 
+    box-shadow: 0px 2px 16px -1px rgba(0,0,0,0.27);
+    position: sticky;
+    top: 0;
+}
+
+.logo {
+    background: #000000;
+    font-size: 1.5em;
+    text-align: center;
+    padding: .5em 2em;
+    height: 50px;
+    box-sizing: border-box;
+}
+
+.logo a{
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.options{
+    background-color: rgba(40, 40, 143, 0.7);
+}
+
+.options ul{
+    display: flex;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    height: 50px;
+}
+
+.options ul li{
+    list-style: none;
+    height: 100%;
+    line-height: 50px;
+    box-sizing: border-box;
+}
+
+.options ul li a{
+    text-decoration: none;
+    font-size: 1.2em;
+    color: #efefef;
+    padding: 0 1.5em;
+}
+
+.options ul li:hover{
+    border-bottom: 2px solid #efefef;
+}
+
+.separador{
+    flex-grow: 1;
+}
+
+.user-space{
+    position: relative;
+    background-color: rgba(40, 40, 143, 0.7);
+    box-sizing: border-box;
+}
+
+.user-space p{
+    padding: 0 1.5em;
+    color: #dfdede;
+}
+
+.user-space:hover .user-options{
+    display: block;
+    position: absolute;
+}
+
+.user-space .user-options{
+    display: none;
+}
+
+.user-options{
+    width: 100%;
+    border: 1px solid black;
+    box-sizing: border-box;
+    background-color: rgba(40, 40, 143, 0.7);
+    -webkit-box-shadow: -1px 10px 13px 6px rgba(0,0,0,0.14); 
+    box-shadow: -1px 10px 13px 6px rgba(0,0,0,0.14);
+}
+
+.user-options ul{
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+.user-options li{
+    list-style: none;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+.user-options li a{
+    text-decoration: none;
+    display: block;
+    padding: 1.5em 0;
+    margin: 0;
+    text-align: center;
+    border-bottom: 1px solid gray;
+    color: #dfdede
+}
+
+.user-options li a:hover{
+    text-decoration: none;
+    width: 100%;
+    margin: 0;
+    text-align: center;
+    background: rgba(40, 40, 143, 0.9);
+}
+
+/* ----------- */
+/* messages below */
+
+.exception {
+    background: rgb(14, 9, 9);
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: .4em;
+    width: 100%;
+    text-align: center;
+    margin-bottom: .5em;
+    font-size: 2em;
+    padding: .5em 0;
+}
+
+.exception p{
+    padding: 0;
+    margin: 0;
+    color: white;
+}

@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body {
+    background-color: rgba(40, 40, 143, 0.7);
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.exception {
+    background: rgb(21, 21, 136);
+    border-radius: .4em;
+    width: 100%;
+    text-align: center;
+    margin-bottom: .5em;
+    font-size: 2em;
+    padding: .5em 0;
+}
+
+.exception p{
+    padding: 0;
+    margin: 0;
+}
+
+.login-div{
+    margin: 10vh auto;
+    width: 750px;
+    padding: 2em 2em 1em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: .4em;
+    color: white;
+    background-color: rgba(40, 40, 143, 0.7);
+    box-shadow: 0px 2px 16px -1px rgba(0,0,0,0.27);
+}
+
+.login-div h1{
+    font-size: 2.5rem;
+    margin-top: 5px;
+}
+
+.login-div .signup-link{
+    color: white;
+    text-decoration: none;
+}
+
+.login-div .login-form {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    flex-direction: column;
+}
+
+.form-error{
+    margin-top: .4em;
+}
+
+.login-div .login-form .input-group{
+    margin-bottom: 1em;
+    width: 75%;
+}
+
+.login-div .login-form .form-input{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 1em;
+    border: 1px solid white;
+    border-radius: .4em;
+}
+
+.login-div .login-form .form-input:hover{
+    background-color: black;
+}
+
+.login-div .login-form .form-input label{
+    font-size: 1.5rem;
+}
+
+.login-div .login-form .form-input input{
+    width: 55%;
+    padding: .7em 1.5em;
+    border: none;
+    border-radius: .3em;
+}
+
+.login-div .login-form .error-input{
+    border: 2px solid red;
+}
+
+.login-div .login-form .login-btn{
+    width: 25%;
+    padding: .7em 2em;
+    border: none;
+    border-radius: .5em;
+    margin-bottom: 10px;
+    font-size: 1.2em;
+}

@@ -1,0 +1,110 @@
+.table__revise{
+    margin: 3em auto;
+    padding: 1.5em .3em;
+    width: 95vw;
+    box-sizing: border-box;
+    background-color: rgba(40, 40, 143, 0.7);
+    border-radius: .4em;
+    -webkit-box-shadow: 0px 2px 16px -1px rgba(0,0,0,0.87); 
+    box-shadow: 0px 2px 16px -1px rgba(0,0,0,0.27);
+    
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.table__revise h1{
+    margin: 0;
+    margin-bottom: 1em;
+    color: #dfdede;
+}
+
+.table__revise .table_revise__area-title{
+    margin: 0;
+    color: #dfdede;
+}
+
+.table__revise table{
+    margin: 0;
+    color: #dfdede;
+}
+
+.table__revise table tr{
+    margin: 1em 0;
+}
+
+.table__revise table tr:hover td {
+    background-color: rgba(40, 40, 143, 0.9);
+}
+
+.table__revise table th{
+    padding: 1em 0;
+    background-color: rgb(21, 21, 136);
+    font-size: 1.1em;
+    position: sticky;
+    top: 60px;
+}
+
+.table__revise table td{
+    padding: 1.2em 1.5em;
+    text-align: center;
+}
+
+.table__revise table td a{
+    text-decoration: none;
+}
+
+.table__revise table td a.a_edit{
+    color: #ffffff;
+    padding: .3em .7em;
+    background-color: rgb(53, 53, 197);
+    border-radius: .3em;
+}
+.table__revise table td a.a_disable{
+    color: #ffffff;
+    padding: .3em .7em;
+    background-color: rgb(204, 68, 68);
+    border-radius: .3em;
+}
+
+.table__revise table td a.a_enable{
+    color: #ffffff;
+    padding: .3em .7em;
+    background-color: rgb(68, 204, 75);
+    border-radius: .3em;
+}
+
+
+/* COLORS */
+
+.grey{
+    background: rgb(204, 202, 202);
+}
+
+.blue {
+    background-color: rgb(104, 104, 214);
+}
+
+/* revises show */
+
+.table__revise .revises-show{
+    margin-top: 3em;
+    color: #dfdede;
+}
+
+.revise-title, .p-title {
+    text-align: center;
+    color: #efefef;
+}
+
+.revise-title {
+    font-size: 3em;
+}
+
+.p-title{
+    font-size: 2em;
+}
+

@@ -1,0 +1,171 @@
+.form-revise{
+    margin: 5em auto;
+    width: 700px;
+    padding: 1.5em 2em;
+    box-sizing: border-box;
+    background: rgba(40, 40, 143, 0.7);
+    border-radius: .4em;
+    -webkit-box-shadow: 0px 2px 16px -1px rgba(0,0,0,0.87); 
+    box-shadow: 0px 2px 16px -1px rgba(0,0,0,0.27);
+}
+
+.form-title{
+    border-bottom: 2px solid #dfdede;
+    margin-bottom: 1em;
+    margin-top: 0;
+    font-size: 2em;
+    text-align: center;
+    color: #dfdede;
+}
+
+.form-area, .selected-area, .form-sub-area, .form-assunto, .form-description, .form-date{
+    display: flex;
+    align-items: center;
+}
+
+.form-area{
+    justify-content: center;
+}
+
+.form-sub-area {
+    justify-content: center;
+}
+
+.form-input { 
+    margin-bottom: 2em;
+    padding-bottom: 0;
+}
+
+.form-input label {
+    color: #dfdede;
+    margin-right: .5em;
+    font-size: 1.2em;
+} 
+
+.form-input input {
+    flex-grow: 1;
+    background-color: rgba(40, 40, 143, 0.9);
+    color: #dfdede;
+}
+
+.form-input ::placeholder {
+    color: rgba(211, 211, 224, 0.678);
+}
+
+.selected-area{
+    flex-direction: column;
+    margin-bottom: 2em;
+    background-color: rgba(40, 40, 143, 0.7);
+    border-radius: .5em;
+    padding: .4em 0;
+}
+
+.selected-area p{
+    font-size: 2em;
+    margin: 0;
+    margin-bottom: .5em;
+    color: #dfdede;
+}
+
+.selected-area a{
+    background: rgb(236, 109, 5);
+    border: 1px solid orange;
+}
+
+.selected-area a:hover{
+    background: rgb(226, 133, 58);
+}
+
+.selectArea, .selectSubArea{
+    min-width: 300px;
+    margin-right: 1em;
+    padding: .2em .3em;
+    font-size: 1.5em;
+    text-align: center;
+    border: none;
+    background-color: rgba(40, 40, 143, 0.9);
+    color: #dfdede;
+}
+
+.btn-form{
+    background-color: rgb(115, 153, 39);
+    text-decoration: none;
+    color: white;
+    padding: .6em 1em;
+    border-bottom: 1px solid green;
+    border-radius: .4em;
+}
+
+.btn-form:hover{
+    background-color: rgb(128, 172, 41);
+}
+
+.input-assunto, .input-description, .input-date{
+    padding: 1em 2em;
+    border: none;
+    border-radius: .3em;
+}
+
+.input-assunto, .input-description {
+    min-width: 400px;
+}
+
+.input-date{
+    min-width: 200px;
+}
+
+.input-date::-webkit-calendar-picker-indicator {
+    filter: invert(1);
+}
+
+.btn-submit-div{
+    display: flex;
+    justify-content: center;
+}
+.btn-submit{
+    padding: .7em 4em;
+    color: #ffffff;
+    background-color: rgb(115, 153, 39);
+    border: 1px solid rgb(85, 114, 29);;
+    border-radius: .4em;
+}
+
+.btn-submit:hover{
+    background-color: rgb(128, 172, 41);
+}
+
+/* create area */
+
+.gather-group{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-evenly;
+    align-items: center;
+}
+
+.gather-group .create-area input, .gather-group .create-subarea input{
+    width: 300px;
+    padding: .6em;
+    background-color: rgba(40, 40, 143, 0.9);
+    color: #dfdede;
+    border: 0;
+    padding: 1em 2em;
+}
+
+.gather-group .create-area ::placeholder, .gather-group .create-subarea ::placeholder {
+    color: rgba(211, 211, 224, 0.678);
+}
+
+.create-area, .create-subarea {
+    margin-bottom: 2em;
+}
+
+.create-area label, .create-subarea label {
+    font-size: 1.2em;
+    color: #dfdede;
+    margin-right: .5em;
+}
+
+.sub-area-space {
+    margin-top: 2em;
+}
